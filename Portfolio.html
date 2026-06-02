@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>FTTH Design Engineer | Telecom Network Specialist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Orbitron:wght@400;500;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-ring"></div>
+  <div class="loader-logo">WELCOME TO ENTER TELECOM WEBSITE</div>
+  <div class="loader-bar-wrap"><div class="loader-bar"></div></div>
+  <div class="loader-pct" id="loader-pct">INITIALIZING... 0%</div>
+</div>
+ 
+<!-- PARTICLES -->
+<canvas id="particles-canvas"></canvas>
+ 
+<!-- NAVBAR -->
+<nav id="navbar">
+  <div class="nav-brand"><span></span>ABHAY DESIGN ENGINEER</div>
+  <ul class="nav-links">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#services">Expertise</a></li>
+    <li><a href="#portfolio">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div id="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+ 
+<!-- MOBILE MENU -->
+<div id="mobile-menu">
+  <a href="#hero" onclick="toggleMenu()">Home</a>
+  <a href="#about" onclick="toggleMenu()">About</a>
+  <a href="#experience" onclick="toggleMenu()">Experience</a>
+  <a href="#skills" onclick="toggleMenu()">Skills</a>
+  <a href="#services" onclick="toggleMenu()">Expertise</a>
+  <a href="#portfolio" onclick="toggleMenu()">Projects</a>
+  <a href="#contact" onclick="toggleMenu()">Contact</a>
+</div>
+ 
+<!-- ══════════════════════════════════
+     HERO SECTION
+═════════════════════════════════════ -->
+<section id="hero">
+  <div class="hero-slides">
+    <div class="hero-slide hero-slide-1 active"></div>
+    <div class="hero-slide hero-slide-2"></div>
+    <div class="hero-slide hero-slide-3"></div>
+  </div>
+  <div class="circuit-bg" id="circuit-bg"></div>
+ 
+  <div class="hero-content">
+    <div class="hero-tag">TELECOM DESIGN SPECIALIST</div>
+    <h1 class="hero-name">
+      <span class="line1">FTTH DESIGN</span>
+      <span class="line2">ENGINEER</span>
+    </h1>
+    <div class="hero-title">FIBER-TO-THE-HOME · NETWORK ARCHITECTURE</div>
+    <p class="hero-desc">
+      3.7+ years crafting fiber optic network solutions — from HLD design to DGPS survey,
+      ArcGIS mapping, and BharatNet Phase III desktop planning. Building India's digital backbone, one fiber at a time.
+    </p>
+    <div class="hero-btns">
+      <a href="#contact" class="btn-primary"><span>Get In Touch</span></a>
+      <a href="#portfolio" class="btn-secondary">View Projects</a>
+    </div>
+  </div>
+ 
+  <div class="hero-stats">
+    <div class="stat-item">
+      <div class="stat-num">3.7<span style="font-size:1rem">+</span></div>
+      <div class="stat-label">Years Experience</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">3</div>
+      <div class="stat-label">Companies Served</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">50<span style="font-size:1rem">+</span></div>
+      <div class="stat-label">Projects Delivered</div>
+    </div>
+  </div>
+ 
+  <div class="hero-dots">
+    <div class="dot active" onclick="goSlide(0)"></div>
+    <div class="dot" onclick="goSlide(1)"></div>
+    <div class="dot" onclick="goSlide(2)"></div>
+  </div>
+  <div class="scroll-cue">SCROLL</div>
+</section>
+ 
+<!-- ══════════════════════════════════
+     ABOUT SECTION
+═════════════════════════════════════ -->
+<section id="about">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 class="section-title">About <em>Me</em></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="about-grid">
+      <div class="about-visual reveal">
+        <div class="about-hex-wrap">
+          <div class="hex-outer"></div>
+          <div class="hex-inner"></div>
+          <div class="hex-center">FTTH<br/>ENGINEER</div>
+          <div class="orbit-dot"></div>
+        </div>
+        <div class="about-floating-tags">
+          <div class="f-tag">HLD DESIGN</div>
+          <div class="f-tag">ARC GIS</div>
+          <div class="f-tag">QGIS</div>
+          <div class="f-tag">BBNL PH3</div>
+        </div>
+      </div>
+      <div class="about-text reveal">
+        <h3>Telecom Design Engineer</h3>
+        <div class="role">FTTH NETWORK SPECIALIST</div>
+        <p>
+          Experienced FTTH Design Engineer with 3.7+ years in telecom network design and deployment,
+          currently working in the industry with a proven track record across leading organizations
+          in India including COPILOT Network, TECHCULTURE SOLUTIONS, and RMSI Pvt Ltd, Noida.
+        </p>
+        <p>
+          Specialized in High Level Design (HLD), Railway DGPS Survey, ABD Diagrams, GIS-based
+          network planning, BSNL telecom infrastructure, and BharatNet Phase 3 desktop planning.
+          Passionate about expanding India's fiber connectivity to the last mile.
+        </p>
+        <div class="about-info-grid">
+          <div class="info-item">
+            <span class="info-label">Current Role</span>
+            <span class="info-val">FTTH Design Engineer</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Experience</span>
+            <span class="info-val">3.7+ Years</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Location</span>
+            <span class="info-val">Noida Sector- 62 (UP)</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Domain</span>
+            <span class="info-val">Telecom / GIS / Fiber</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ══════════════════════════════════
+     EXPERIENCE SECTION
+═════════════════════════════════════ -->
+<section id="experience">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 class="section-title">Professional <em>Experience</em></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="timeline">
+ 
+      <div class="timeline-item reveal">
+        <div class="t-period">2023 — PRESENT</div>
+        <div class="t-role">FTTH Design Engineer</div>
+        <div class="t-company">COPILOT NETWORK INDIA PVT LTD</div>
+        <p class="t-desc">
+          Leading FTTH network design projects across multiple telecom zones. Responsible for
+          HLD design, fiber route planning, and coordination with field teams for network
+          deployment. Handling BBNL (BharatNet) Phase 3 desktop planning and QC of telecom maps.
+        </p>
+        <div class="t-tags">
+          <span class="t-tag">HLD Design</span>
+          <span class="t-tag">FTTH Planning</span>
+          <span class="t-tag">BBNL Ph3</span>
+          <span class="t-tag">File QC</span>
+        </div>
+      </div>
+ 
+      <div class="timeline-item reveal">
+        <div class="t-period">2022 — 2023</div>
+        <div class="t-role">Telecom Design Engineer</div>
+        <div class="t-company">TECHCULTURE SOLUTIONS PVT LTD</div>
+        <p class="t-desc">
+          Worked on ABD diagram creation and railway DGPS survey data processing. Performed
+          topography map digitization and quality control for telecom infrastructure projects.
+          Contributed to BSNL network expansion planning using ArcGIS and QGIS platforms.
+        </p>
+        <div class="t-tags">
+          <span class="t-tag">ABD Diagrams</span>
+          <span class="t-tag">Railway DGPS Survey</span>
+          <span class="t-tag">ArcGIS</span>
+          <span class="t-tag">Map Digitization</span>
+        </div>
+      </div>
+ 
+      <div class="timeline-item reveal">
+        <div class="t-period">2021 — 2022</div>
+        <div class="t-role">GIS & Telecom Design Analyst</div>
+        <div class="t-company">RMSI PVT LTD — NOIDA</div>
+        <p class="t-desc">
+          Performed GIS-based telecom network analysis and topography map digitization.
+          Supported HLD and LLD design processes, fiber optic route surveys, and QC
+          of spatial data for BSNL and national fiber projects using QGIS and ArcGIS tools.
+        </p>
+        <div class="t-tags">
+          <span class="t-tag">QGIS</span>
+          <span class="t-tag">Topography QC</span>
+          <span class="t-tag">BSNL</span>
+          <span class="t-tag">Fiber Survey</span>
+        </div>
+      </div>
+ 
+    </div>
+  </div>
+</section>
+ 
+<!-- ══════════════════════════════════
+     SKILLS SECTION
+═════════════════════════════════════ -->
+<section id="skills">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 class="section-title">Skills Proficiency &amp; <em>Expertise</em></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="skills-grid">
+ 
+      <div class="skill-group reveal">
+        <h4>Design &amp; Planning</h4>
+        <div class="skill-bar-item">
+          <div class="skill-top"><span class="skill-name">FTTH / HLD Design</span><span class="skill-pct">92%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-pct="92"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-top"><span class="skill-name">ABD Diagram Design</span><span class="skill-pct">88%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-pct="88"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-top"><span class="skill-name">BharatNet (BBNL) Ph3 Planning</span><span class="skill-pct">85%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-pct="85"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-top"><span class="skill-name">BSNL Telecom Network</span><span class="skill-pct">82%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-pct="82"></div></div>
+        </div>
+      </div>
+ 
+      <div class="skill-group reveal">
+        <h4>GIS &amp; Survey</h4>
+        <div class="skill-bar-item">
+          <div class="skill-top"><span class="skill-name">ArcGIS</span><span class="skill-pct">90%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-pct="90"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-top"><span class="skill-name">QGIS</span><span class="skill-pct">88%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-pct="88"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-top"><span class="skill-name">Railway DGPS Survey</span><span class="skill-pct">80%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-pct="80"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-top"><span class="skill-name">Topography Map Digitization QC</span><span class="skill-pct">85%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-pct="85"></div></div>
+        </div>
+      </div>
+ 
+    </div>
+ 
+    <div class="skills-tools reveal">
+      <div class="tools-title">TOOLS &amp; TECHNOLOGIES</div>
+      <div class="tools-grid">
+        <div class="tool-card">ARC GIS</div>
+        <div class="tool-card">QGIS</div>
+        <div class="tool-card">AutoCAD</div>
+        <div class="tool-card">MS Office</div>
+        <div class="tool-card">DGPS Survey</div>
+        <div class="tool-card">BSNL OFC</div>
+        <div class="tool-card">BBNL / BharatNet</div>
+        <div class="tool-card">HLD / LLD Design</div>
+        <div class="tool-card">ABD Diagrams</div>
+        <div class="tool-card">Fiber Optic</div>
+        <div class="tool-card">Network Planning</div>
+        <div class="tool-card">GIS Mapping</div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ══════════════════════════════════
+     SERVICES / EXPERTISE
+═════════════════════════════════════ -->
+<section id="services">
+  <div class="container">
+    <div class="section-header reveal">
+
+      <h2 class="section-title">Core <em>Expertise</em></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="services-grid">
+ 
+      <div class="srv-card reveal">
+        <div class="srv-num">01</div>
+        <span class="srv-icon">🔌</span>
+        <div class="srv-title">FTTH Network Design</div>
+        <p class="srv-desc">
+          End-to-end Fiber-to-the-Home network design including route planning, splice point
+          identification, ODF placement, and final HLD documentation for deployment teams.
+        </p>
+      </div>
+ 
+      <div class="srv-card reveal">
+        <div class="srv-num">02</div>
+        <span class="srv-icon">🗺️</span>
+        <div class="srv-title">GIS & Map Digitization</div>
+        <p class="srv-desc">
+          Precision topographic map digitization and QC using ArcGIS and QGIS. Spatial data
+          analysis for telecom route feasibility and fiber duct placement optimization.
+        </p>
+      </div>
+ 
+      <div class="srv-card reveal">
+        <div class="srv-num">03</div>
+        <span class="srv-icon">🛤️</span>
+        <div class="srv-title">Railway DGPS Survey</div>
+        <p class="srv-desc">
+          Differential GPS survey processing for railway telecom corridors, ensuring accurate
+          geospatial data capture for OFC route planning alongside rail infrastructure.
+        </p>
+      </div>
+ 
+      <div class="srv-card reveal">
+        <div class="srv-num">04</div>
+        <span class="srv-icon">📐</span>
+        <div class="srv-title">ABD Diagram Creation</div>
+        <p class="srv-desc">
+          Accurate As-Built Document (ABD) diagrams showing deployed fiber routes, manhole
+          locations, cabinet placements, and cable schedule documentation.
+        </p>
+      </div>
+ 
+      <div class="srv-card reveal">
+        <div class="srv-num">05</div>
+        <span class="srv-icon">🌐</span>
+        <div class="srv-title">BharatNet Planning</div>
+        <p class="srv-desc">
+          Desktop planning for BBNL BharatNet Phase 3, covering last-mile connectivity design
+          for rural India — from GP to block level fiber network architecture.
+        </p>
+      </div>
+ 
+      <div class="srv-card reveal">
+        <div class="srv-num">06</div>
+        <span class="srv-icon">📡</span>
+        <div class="srv-title">BSNL Network Design</div>
+        <p class="srv-desc">
+          Telecom network design and augmentation for BSNL infrastructure, including OFC
+          route planning, node placement, and network capacity analysis.
+        </p>
+      </div>
+ 
+    </div>
+  </div>
+</section>
+ 
+<!-- ══════════════════════════════════
+     PORTFOLIO / PROJECTS
+═════════════════════════════════════ -->
+<section id="portfolio">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 class="section-title">Featured <em>Projects</em></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="portfolio-grid">
+ 
+      <div class="proj-card reveal">
+        <div class="proj-img proj-img-1">
+          <span class="proj-img-icon">🔷</span>
+          <div class="proj-img-badge">FTTH</div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-title">LUMOUS & TDS — HLD Design</div>
+          <p class="proj-desc">Desktop HLD design for rural Network connectivity covering hundreds of Gram Panchayats with optimized fiber routing.</p>
+          <div class="proj-tech"><span>QGIS</span><span>HLD</span><span>LUMOUS</span></div>
+        </div>
+      </div>
+ 
+      <div class="proj-card reveal">
+        <div class="proj-img proj-img-2">
+          <span class="proj-img-icon">🗾</span>
+          <div class="proj-img-badge">GIS</div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-title">Railway OFC DGPS Survey</div>
+          <p class="proj-desc">DGPS-based survey for railway optical fiber cable corridor, with accurate spatial data processing and ABD generation.</p>
+          <div class="proj-tech"><span>ArcGIS</span><span>DGPS</span><span>ABD</span></div>
+        </div>
+      </div>
+ 
+      <div class="proj-card reveal">
+        <div class="proj-img proj-img-3">
+          <span class="proj-img-icon">📡</span>
+          <div class="proj-img-badge">BSNL</div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-title">BharatNet Phase-3</div>
+          <p class="proj-desc">Fiber network augmentation & network and planning design for BSNL covering urban and peri-urban zones with updated OFC route plans.</p>
+          <div class="proj-tech"><span>BSNL OFC</span><span>ArcGIS</span><span>Network Design</span></div>
+        </div>
+      </div>
+ 
+      <div class="proj-card reveal">
+        <div class="proj-img proj-img-4">
+          <span class="proj-img-icon">🏙️</span>
+          <div class="proj-img-badge">FTTH</div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-title">Urban FTTH Rollout Design</div>
+          <p class="proj-desc">Complete FTTH design for urban residential blocks — from OLT placement to last-mile distribution fiber planning.</p>
+          <div class="proj-tech"><span>FTTH</span><span>HLD</span><span>LLD</span></div>
+        </div>
+      </div>
+ 
+      <div class="proj-card reveal">
+        <div class="proj-img proj-img-5">
+          <span class="proj-img-icon">🗺️</span>
+          <div class="proj-img-badge">GIS</div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-title">Topography Map Digitization QC</div>
+          <p class="proj-desc">Large-scale topographic digitization and quality control for telecom infrastructure projects using GIS platforms.</p>
+          <div class="proj-tech"><span>QGIS</span><span>ArcGIS</span><span>QC</span></div>
+        </div>
+      </div>
+ 
+      <div class="proj-card reveal">
+        <div class="proj-img proj-img-6">
+          <span class="proj-img-icon">📋</span>
+          <div class="proj-img-badge">ABD</div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-title">As-Built Documentation Suite</div>
+          <p class="proj-desc">Comprehensive ABD diagram creation for deployed fiber networks including cable schedules and manhole inventories.</p>
+          <div class="proj-tech"><span>ABD</span><span>AutoCAD</span><span>Documentation</span></div>
+        </div>
+      </div>
+ 
+    </div>
+  </div>
+</section>
+ 
+<!-- ══════════════════════════════════
+     CERTIFICATIONS
+═════════════════════════════════════ -->
+<section id="certifications" style="background:var(--bg3);">
+  <div class="container">
+    <div class="section-header reveal">
+      <h2 class="section-title">Certifications &amp; <em>Training</em></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="cert-grid">
+      <div class="cert-card reveal">
+        <div class="cert-icon">🏅</div>
+        <div><div class="cert-name">FTTH Network Design & Planning</div><div class="cert-issuer">Telecom Training Institute</div></div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-icon">🎖️</div>
+        <div><div class="cert-name">ArcGIS Professional Certification</div><div class="cert-issuer">Esri / RMSI</div></div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-icon">🏅</div>
+        <div><div class="cert-name">QGIS GIS Mapping</div><div class="cert-issuer">Open Source GIS Community</div></div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-icon">🎖️</div>
+        <div><div class="cert-name">Telecom Network Engineering</div><div class="cert-issuer">BSNL Training Centre</div></div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-icon">🏅</div>
+        <div><div class="cert-name">DGPS Survey Operations</div><div class="cert-issuer">Survey of India / Railways</div></div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-icon">🎖️</div>
+        <div><div class="cert-name">BharatNet Project Implementation</div><div class="cert-issuer">DoT / BBNL India</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ══════════════════════════════════
+     CONTACT SECTION
+═════════════════════════════════════ -->
+<section id="contact">
+  <div class="container">
+    <div class="section-header reveal">
+    
+      <h2 class="section-title">Contact <em>Me</em></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="contact-grid">
+      <div>
+        <div class="contact-info reveal">
+          <h3>Let's Work Together</h3>
+          <p>
+            Available for FTTH design projects, GIS consulting, BharatNet network planning,
+            and telecom infrastructure design. Drop a message and I'll respond within 24 hours.
+          </p>
+        </div>
+        <div class="contact-items reveal">
+          <div class="c-item">
+            <span class="c-icon">📍</span>
+            <div>
+              <div class="c-label">Location</div>
+              <div class="c-value">Noida, Uttar Pradesh, India</div>
+            </div>
+          </div>
+          <div class="c-item">
+            <span class="c-icon">💼</span>
+            <div>
+              <div class="c-label">Current Company</div>
+              <div class="c-value">COPILOT Network India Pvt Ltd</div>
+            </div>
+          </div>
+          <div class="c-item">
+            <span class="c-icon">🌐</span>
+            <div>
+              <div class="c-label">Domain</div>
+              <div class="c-value">FTTH · GIS · Telecom · Fiber Design</div>
+            </div>
+          </div>
+          <div class="c-item">
+            <span class="c-icon">⚡</span>
+            <div>
+              <div class="c-label">Availability</div>
+              <div class="c-value">Open to Projects & Opportunities</div>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="contact-form reveal">
+        <div id="form-msg">✅ MESSAGE SENT SUCCESSFULLY — I'll respond within 24 hours.</div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" id="f-name" placeholder="Full Name"/>
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" id="f-email" placeholder="your@email.com"/>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Subject</label>
+          <input type="text" id="f-subject" placeholder="Project Inquiry / Collaboration"/>
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea id="f-msg" placeholder="Tell me about your project or requirement..."></textarea>
+        </div>
+        <button class="btn-submit" onclick="submitForm()"><span>Send Message →</span></button>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- FOOTER -->
+<footer id="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">⬡ FTTH DESIGN ENGINEER</div>
+    <div class="footer-copy">
+      © 2025 FTTH Design Engineer · Telecom Network Engineer · Noida, India<br/>
+      <span style="color:rgba(106,143,168,0.5);font-size:0.6rem;">COPILOT Network · TECHCULTURE Solutions · RMSI Pvt Ltd</span>
+    </div>
+    <div class="footer-socials">
+      <a href="www.linkedin.com/in/abhay-sharma-231157239" class="social-btn" title="LinkedIn">in</a>
+      <a href="mailto:abhaysharma892486@gmail.com" class="social-btn" title="Email">@</a>
+    </div>
+  </div>
+</footer>
+ 
+<!-- BACK TO TOP -->
+<div id="back-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</div>
+ <script src="P.js"></script>
+</body>
+</html>
